@@ -1,6 +1,7 @@
 // Binary Search 
 // O(log n)
 // Input data must be sorted to find an element
+// Mahmud Ahsan
 
 func binary_searh(list: [Int], item: Int) -> Int? {
     var low = 0

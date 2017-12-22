@@ -1,7 +1,7 @@
 // Selection Sort 
 // O(n^2)
 // Take integer Array and sort 
-
+// Mahmud Ahsan
 
 func findSmallest(arr: [Int]) -> Int {
     var smallestItem  = arr[0]

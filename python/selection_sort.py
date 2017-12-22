@@ -1,6 +1,7 @@
 # Selection Sort 
 # O(n^2)
 # Take integer Array and sort 
+# Mahmud Ahsan
 
 def findSmallest(arr):
     smallest_item  = arr[0]

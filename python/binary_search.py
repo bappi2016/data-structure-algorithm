@@ -1,6 +1,7 @@
 # Binary Search 
 # O(log n)
 # Input data must be sorted to find an element
+# Mahmud Ahsan
 
 def binary_search(list, item):
     low = 0
