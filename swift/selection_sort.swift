@@ -1,6 +1,6 @@
 // Selection Sort 
 // O(n^2)
-// Take integer and sort
+// Take integer Array and sort 
 
 
 func findSmallest(arr: [Int]) -> Int {

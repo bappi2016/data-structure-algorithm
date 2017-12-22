@@ -1,4 +1,6 @@
-// Binary Search, Input data must be sorted
+// Binary Search 
+// O(log n)
+// Input data must be sorted to find an element
 
 func binary_searh(list: [Int], item: Int) -> Int? {
     var low = 0
@@ -19,6 +21,8 @@ func binary_searh(list: [Int], item: Int) -> Int? {
     }
     return nil
 }
+
+// Testing
 
 let items = [1, 2, 3, 5, 7, 9, 14, 19, 50]
 print(binary_searh(list: items, item: 9))

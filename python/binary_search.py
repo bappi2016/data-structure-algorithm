@@ -1,4 +1,6 @@
-# Binary Search, Input data must be sorted
+# Binary Search 
+# O(log n)
+# Input data must be sorted to find an element
 
 def binary_search(list, item):
     low = 0
@@ -17,6 +19,7 @@ def binary_search(list, item):
     return None
 
 #testing
+
 list_items = [1, 2, 3, 5, 7, 9, 14, 19, 50]
 print(binary_search(list_items, 9))
 print(binary_search(list_items, 10))
