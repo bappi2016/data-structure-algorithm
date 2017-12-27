@@ -22,5 +22,5 @@ def selectionSort(arr):
 #Testing
     
 print(selectionSort([1, 2, 3, 4, 5]))
-print(selectionSort([5, 4, 3, 2, 1]))
-print(selectionSort([5, 50, 3, 100, 1]))
+print(selectionSort([5.0, 4.0, 3.0, 2.0, 1.0]))
+print(selectionSort(["love", "like", "play", "cool", "my"]))

@@ -21,8 +21,10 @@ def binary_search(list, item):
 
 #testing
 
-list_items = [1, 2, 3, 5, 7, 9, 14, 19, 50]
-print(binary_search(list_items, 9))
-print(binary_search(list_items, 10))
-print(binary_search(list_items, 50))
-print(binary_search(list_items, 3))
+items1 = [1, 2, 3, 5, 7, 9, 14, 19, 50] #sorted
+items2 = ["love", "like", "play", "cool", "my"]
+
+print(binary_search(items1, 9))
+print(binary_search(items1, 10))
+print(binary_search(items1, 50))
+print(binary_search(sorted(items2), "like"))
