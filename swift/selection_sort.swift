@@ -3,7 +3,7 @@
 // Take integer Array and sort 
 // Mahmud Ahsan
 
-func findSmallest(arr: [Int]) -> Int {
+func findSmallest <T: Comparable> (arr: [T]) -> Int {
     var smallestItem  = arr[0]
     var smallestIndex = 0
     for i in 1..<arr.count{
@@ -15,9 +15,9 @@ func findSmallest(arr: [Int]) -> Int {
     return smallestIndex
 }
 
-func selectionSort(_ arrOriginal: [Int]) -> [Int] {
+func selectionSort <T: Comparable> (_ arrOriginal: [T]) -> [T] {
     var arr    = arrOriginal
-    var newArr = [Int]()
+    var newArr = [T]()
     for _ in 0..<arr.count {
         let smallestItemIndex = findSmallest(arr: arr)
         let smallestItem      = arr[smallestItemIndex]
@@ -31,5 +31,5 @@ func selectionSort(_ arrOriginal: [Int]) -> [Int] {
 // Testing
 
 print(selectionSort([1, 2, 3, 4, 5]))
-print(selectionSort([5, 4, 3, 2, 1]))
-print(selectionSort([5, 50, 3, 100, 1]))
+print(selectionSort([5.0, 4.0, 3.0, 2.0, 1.0]))
+print(selectionSort(["love", "like", "play", "cool", "my"]))
