@@ -16,6 +16,6 @@ def quick_sort(array):
 
 #Testing
     
-print(quick_sort([1, 2, 4, 4, 5, 1, 3]))
-print(quick_sort([5.0, 4.0, 3.0, 2.0, 1.0]))
-print(quick_sort(["love", "like", "play", "cool", "my"]))
+assert([1, 1, 2, 3, 4, 4, 5] == quick_sort([1, 2, 4, 4, 5, 1, 3]))
+assert([1.0, 2.0, 3.0, 4.0, 5.0] == quick_sort([5.0, 4.0, 3.0, 2.0, 1.0]))
+assert(['cool', 'like', 'love', 'my', 'play'] == quick_sort(["love", "like", "play", "cool", "my"]))
